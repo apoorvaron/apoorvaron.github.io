@@ -153,10 +153,10 @@ const KeyEffect = async (wait, content) => {
 
 function init() {
   const effectTag = document.querySelector(".typewriter-box");
-  // var wait = effectTag.getAttribute("data-wait");
-  // var Rawcontent = effectTag.getAttribute("data-content");
-  // const content = JSON.parse(Rawcontent);
-  // KeyEffect(wait, content);
+  var wait = effectTag.getAttribute("data-wait");
+  var Rawcontent = effectTag.getAttribute("data-content");
+  const content = JSON.parse(Rawcontent);
+  KeyEffect(wait, content);
 }
 // typewriter effect end
 
@@ -169,12 +169,12 @@ function test() {
   var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
   var itemPosNewAnimTop = activeItemNewAnim.position();
   var itemPosNewAnimLeft = activeItemNewAnim.position();
-  // $(".hori-selector").css({
-  //   top: itemPosNewAnimTop.top + "px",
-  //   left: itemPosNewAnimLeft.left + "px",
-  //   height: activeWidthNewAnimHeight + "px",
-  //   width: activeWidthNewAnimWidth + "px",
-  // });
+  $(".hori-selector").css({
+    top: itemPosNewAnimTop.top + "px",
+    left: itemPosNewAnimLeft.left + "px",
+    height: activeWidthNewAnimHeight + "px",
+    width: activeWidthNewAnimWidth + "px",
+  });
   $("#navbarSupportedContent").on("click", "li", function (e) {
     $("#navbarSupportedContent ul li").removeClass("active");
     $(this).addClass("active");

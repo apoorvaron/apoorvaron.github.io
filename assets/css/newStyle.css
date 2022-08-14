@@ -3062,3 +3062,175 @@ h4 {
   transition-delay: 0.2s;
 }
 /* end of pikachu section */
+/* html {
+  font-size: 10px;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  background: #e1e6ed;
+  font-family: "Open Sans", sans-serif;
+} */
+.cards--amazon {
+  position: relative;
+  right: 50%;
+  bottom: 50%;
+  text-align: center;
+  font-size: 0;
+  transform: translate(50%, 50%);
+}
+.card--amazon {
+  display: inline-block;
+  position: relative;
+  width: 16rem;
+  height: 18rem;
+  margin: 1rem;
+  font-size: 1.6rem;
+  color: #555e6b;
+  cursor: pointer;
+}
+.card__brand--amazon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 16rem;
+  height: 13rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.card__logo--amazon {
+  display: inline-block;
+  left: 25%;
+  width: 40%;
+  margin: 12% 0 5%;
+}
+.card__status--amazon {
+  position: absolute;
+  right: 0;
+  bottom: 1.5rem;
+  left: 0;
+  z-index: 1;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+.card__status--amazon::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: -0.1rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-right: 0.4rem;
+  border-radius: 50%;
+  background: #11cfd9;
+  vertical-align: middle;
+}
+.card__content--amazon {
+  visibility: hidden;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  z-index: 2;
+  width: 140%;
+  padding: 13rem 2rem 2rem;
+  transform: translate(50%, 50%);
+}
+.card__background--amazon {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.1rem 0.2rem rgba(53, 65, 82, 0.1);
+  background: white;
+  transform: translate(50%, 50%);
+}
+.event--amazon {
+  position: relative;
+  padding-left: 20%;
+  padding-bottom: 1.5rem;
+}
+.event__group--amazon:last-child .event--amazon:last-child {
+  padding-bottom: 0;
+}
+.event__group--amazon:last-child .event--amazon:last-child::before {
+  display: none;
+}
+.event__group--amazon:first-child .event--amazon:first-child::after {
+  background: #11cfd9;
+}
+.event--amazon::before,
+.event--amazon::after {
+  content: "";
+  position: absolute;
+}
+.event--amazon::before {
+  top: 1.5rem;
+  left: 5%;
+  width: 1px;
+  height: 100%;
+  background: #ccc;
+}
+.event--amazon::after {
+  top: 1.5rem;
+  left: 5%;
+  width: 7px;
+  height: 7px;
+  margin: -3px 0 0 -3px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.3rem #ffffff;
+  background: #ccc;
+}
+.event__timeline--amazon {
+  padding: 2rem 0 1.5rem;
+}
+.event__group--amazon {
+  position: relative;
+  padding-left: 18%;
+}
+.event__group--amazon .event__group--amazon_ol {
+  text-align: left;
+  /* display: none; */
+  list-style-type: none;
+}
+#event__group--amazon_ol-1 {
+  list-style-type: none;
+}
+.event__group-date--amazon {
+  position: absolute;
+  top: -0.4rem;
+  left: -2%;
+  width: 18%;
+  font-size: 2.4rem;
+  color: #354152;
+}
+.event__group-date--amazon .event__group-date--amazon_span {
+  display: block;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #555e6b;
+}
+.event__img--amazon {
+  display: block;
+  position: relative;
+  padding-top: 59.5%;
+  width: 80%;
+  margin-top: 0.8rem;
+}
+.event__img--amazon .event__img--amazon_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0.3rem;
+}
+.event__time--amazon {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  opacity: 0.8;
+}

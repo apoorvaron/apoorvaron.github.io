@@ -2438,7 +2438,7 @@ a:hover {
   }
 
   .imag {
-    width: 18rem;
+    width: 100%;
   }
 
   #typewriter {
@@ -2996,3 +2996,69 @@ h4 {
   z-index: 2;
   transform: scale(2);
 }
+
+/* begin of pikachu section */
+
+.container--pika {
+  position: relative;
+  /* width: 1100px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-warp: warp; */
+  padding: 30px;
+}
+
+.container--pika .card--pika {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background-color: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+}
+.container--pika .card--pika:hover {
+  height: 320px;
+}
+
+.container--pika .card--pika .image--pika {
+  position: relative;
+  width: 260px;
+  height: 260px;
+
+  top: -40%;
+  left: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.container--pika .card--pika .image--pika .img--pika {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.container--pika .card--pika .content--pika {
+  position: relative;
+  top: -140px;
+  padding: 10px 15px;
+  color: #111;
+  text-align: center;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.container--pika .card--pika:hover .content--pika {
+  margin-top: 30px;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+/* end of pikachu section */

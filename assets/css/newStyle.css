@@ -2545,11 +2545,20 @@ a:hover {
 }
 
 .social-btns .btn.facebook:before {
-  background-color: #3b5998;
+  background-color: #ffe5b4;
+}
+.social-btns .btn.hackerrank:before {
+  background-color: #90ee90;
+}
+.social-btns .btn.codeforces:before {
+  background-color: #add8e6;
+}
+.social-btns .btn.stopStalk:before {
+  background-color: #e9abab;
 }
 
 .social-btns .btn.facebook .fa {
-  color: #3b5998;
+  color: #abb4c7;
 }
 
 .social-btns .btn.linkedin:before {

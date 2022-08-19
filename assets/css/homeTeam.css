@@ -23,7 +23,7 @@
   font-family: sans-serif;
   width: 180px;
   height: 180px;
-  background: #46aff5;
+  background: #6c63ff;
   padding: 30px;
   border-radius: 50%;
   box-shadow: 0 0 22px rgba(71, 71, 71, 0.4);
@@ -101,3 +101,9 @@
   height: 10px;
   width: 5vw;
 } */
+.tech-stack-para {
+  margin-top: 80% !important;
+  font-size: large !important;
+  font-weight: bold !important;
+  text-align: center !important;
+}

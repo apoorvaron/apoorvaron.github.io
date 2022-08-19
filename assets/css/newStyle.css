@@ -492,7 +492,7 @@ a:hover {
 
 .b-infos {
   width: 380px;
-  color: #007bff;
+  color: #6c63ff;
   background-color: #fff;
   position: absolute;
   top: 210px;
@@ -504,7 +504,7 @@ a:hover {
 }
 
 .b-infos .b-button {
-  background: #005daa;
+  background: #6c63ff;
   color: #fff;
   border-radius: 6px;
   border: none;
@@ -521,7 +521,7 @@ a:hover {
 
 .b-infos::after {
   content: "";
-  background: #005daa;
+  background: #6c63ff;
   border-radius: 10px;
   height: 100%;
   width: 100%;
@@ -551,7 +551,7 @@ a:hover {
 
 .b-infos:hover .b-button {
   background: rgb(243 243 243);
-  color: #0397fe;
+  color: #6c63ff;
 }
 
 .b-text {
@@ -3410,3 +3410,6 @@ h4 {
 }
 
 /* end of top section */
+#techStack {
+  padding-bottom: 5%;
+}

@@ -246,6 +246,10 @@ ul {
   background: #004182;
   background: linear-gradient(200deg, #004182 0%, #004182 100%);
 }
+.social-menu ul li a.github-footer:hover {
+  background: #000000 !important;
+  background: linear-gradient(200deg, #004182 0%, #004182 100%);
+}
 .li--top--social {
   margin-right: 5%;
 }
@@ -257,20 +261,8 @@ ul {
     margin-left: -7% !important;
   }
 }
-.social-menu ul li a.linkedin-footer {
-  background-color: rgb(0 0 0 / 13%);
-}
-.social-menu ul li a.github-footer {
-  background-color: rgb(0 0 0 / 13%);
-}
-.social-menu ul li a.twitter-footer {
-  background-color: rgb(0 0 0 / 13%);
-}
-.social-menu ul li a.instagram-footer {
-  background-color: rgb(0 0 0 / 13%);
-}
-.social-menu ul li a.mail-footer {
-  background-color: rgb(0 0 0 / 13%);
+.color--social--top {
+  background-color: rgb(0 0 0 / 13%) !important;
 }
 
 .social-menu ul li a.discord-footer:hover {
@@ -278,7 +270,7 @@ ul {
 }
 
 .social-menu ul li a.mail-footer:hover {
-  background-color: #c74941;
+  background-color: #c74941 !important;
 }
 
 #meet-the-team-btn {

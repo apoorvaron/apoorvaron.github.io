@@ -27,7 +27,7 @@
   flex-direction: column;
 }
 .outstanding-logo {
-  width: 160px;
+  width: 80px;
   animation-name: scale-up-center;
   animation-duration: 1s;
   animation-timing-function: ease;

@@ -227,13 +227,50 @@ ul {
 
 .social-menu ul li a.instagram-footer:hover {
   background: rgb(177, 42, 176);
-  background: linear-gradient(200deg,
-      rgba(177, 42, 176, 1) 0%,
-      rgba(249, 125, 31, 1) 100%);
+  background: linear-gradient(
+    200deg,
+    rgba(177, 42, 176, 1) 0%,
+    rgba(249, 125, 31, 1) 100%
+  );
+}
+.social-menu ul li a.twitter-footer:hover {
+  background: rgb(29, 155, 240);
+  background: linear-gradient(
+    200deg,
+    rgb(29, 155, 240) 0%,
+    rgb(29, 155, 240) 100%
+  );
 }
 
-.social-menu ul li a.github-footer:hover {
-  background-color: #1b1f23;
+.social-menu ul li a.linkedin-footer:hover {
+  background: #004182;
+  background: linear-gradient(200deg, #004182 0%, #004182 100%);
+}
+.li--top--social {
+  margin-right: 5%;
+}
+.ul--top--social {
+  margin-left: -15% !important;
+}
+@media screen and (max-width: 992px) {
+  .ul--top--social {
+    margin-left: -7% !important;
+  }
+}
+.social-menu ul li a.linkedin-footer {
+  background-color: rgb(0 0 0 / 13%);
+}
+.social-menu ul li a.github-footer {
+  background-color: rgb(0 0 0 / 13%);
+}
+.social-menu ul li a.twitter-footer {
+  background-color: rgb(0 0 0 / 13%);
+}
+.social-menu ul li a.instagram-footer {
+  background-color: rgb(0 0 0 / 13%);
+}
+.social-menu ul li a.mail-footer {
+  background-color: rgb(0 0 0 / 13%);
 }
 
 .social-menu ul li a.discord-footer:hover {

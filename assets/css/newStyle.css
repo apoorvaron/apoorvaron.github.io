@@ -1692,8 +1692,8 @@ a:hover {
   display: block;
   box-sizing: border-box;
   appearance: none;
-  background-color: #005daa;
-  border: 2px solid #005daa;
+  background-color: #6c63ff;
+  border: 2px solid #6c63ff;
   border-radius: 0.6em;
   cursor: pointer;
   font-size: 1rem;
@@ -1712,8 +1712,8 @@ a:hover {
   display: block;
   box-sizing: border-box;
   appearance: none;
-  background-color: #005daa;
-  border: 2px solid #005daa;
+  background-color: #6c63ff;
+  border: 2px solid #6c63ff;
   border-radius: 0.6em;
   cursor: pointer;
   font-size: 1rem;
@@ -1732,14 +1732,14 @@ a:hover {
 
 .about-button:hover,
 .about-button:focus {
-  color: var(--blue);
+  color: #6c63ff;
   background-color: #fff;
   outline: 0;
 }
 
 .drop-down.about-button:hover,
 .drop-down.about-button:focus {
-  color: var(--blue);
+  color: #6c63ff;
   background-color: #fff;
   outline: 0;
 }
@@ -2784,7 +2784,7 @@ h4 {
 }
 
 .text-head {
-  color: #0092cf;
+  color: #6c63ff;
 }
 
 .btn-theme {
@@ -3311,6 +3311,9 @@ h4 {
 .ptb-100--top {
   padding-top: 160px;
   padding-bottom: 0px;
+}
+.padding--top {
+  padding-bottom: 2%;
 }
 
 .mb-25--top {

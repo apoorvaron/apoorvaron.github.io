@@ -6,7 +6,7 @@ $("body")
   .delay(5000)
   .queue(function () {
     // window.location.replace("https://apoorvaron.me");
-    // window.location = "./me.html";
+    window.location = "./me.html";
     // $(".chupahuahai").css("display", "inline-block");
   });
 $(".count--splash").each(function () {

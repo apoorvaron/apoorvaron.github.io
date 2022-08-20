@@ -3469,8 +3469,17 @@ img.vert-move {
   box-sizing: border-box;
 }
 
-h3--experience {
+.h3--experience {
   font-family: sans-serif;
+  color: #6c63ff;
+  font-weight: bold;
+}
+.webingo--experience {
+  color: #6c63ff;
+  text-decoration: none;
+}
+.webingo--experience:hover {
+  color: #6c63ff;
 }
 .container--experience {
   max-width: 900px;
